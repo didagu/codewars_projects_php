@@ -13,7 +13,7 @@
                     break;
             }
         }
-        echo join('',$finalOutput);
+        return join('',$finalOutput);
     }
 
     DNA_strand("ATTCG");
